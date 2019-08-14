@@ -5,15 +5,12 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 class Parent {
-
     private String name;
     private Integer age;
-
     public Parent(String name, Integer age) {
         this.name = name;
         this.age = age;
     }
-
     @Override
     public String toString() {
         return "Parent{" +
